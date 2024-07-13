@@ -15,12 +15,11 @@
 2. Create docker-compose.yml File: Ensure the docker-compose.yml file is in the root of your project directory.
 3. Start Docker Containers
 
-<<<<<<< HEAD
+
 ### Data Flow
-=======
 Data Flow
 
->>>>>>> b0794a9c8401e006ee2c08d269c61cb877cae518
+
 1.Data Ingestion:
 
 Data is ingested into Kafka from a data generator producing messages to the user-login topic.
@@ -39,11 +38,9 @@ The processed data is produced to a new Kafka topic named processed-data-topic
 
 ## Additional Questions
 
-<<<<<<< HEAD
+
 ### 1. How would you deploy this application in production?
-=======
-1.How would you deploy this application in production?
->>>>>>> b0794a9c8401e006ee2c08d269c61cb877cae518
+
 
 Deployment Strategy:
 
@@ -59,11 +56,9 @@ Secrets Management: Use a secure secrets management system like HashiCorp Vault 
 
 Security: Implement network security measures like VPC, security groups, and network policies. Use TLS encryption for data in transit and encrypt data at rest. Regularly update and patch dependencies and containers to mitigate security vulnerabilities.
 
-<<<<<<< HEAD
+
 ### 2. What other components would you want to add to make this production ready?
-=======
-2.What other components would you want to add to make this production ready?
->>>>>>> b0794a9c8401e006ee2c08d269c61cb877cae518
+
 
 Additional Components:
 
@@ -81,11 +76,9 @@ Alerting System: Set up an alerting system using tools like PagerDuty or OpsGeni
 
 Service Mesh: Use a service mesh like Istio or Linkerd to manage microservices communication, traffic management, and observability.
 
-<<<<<<< HEAD
+
 ### 3. How can this application scale with a growing dataset?
-=======
-3.How can this application scale with a growing dataset?
->>>>>>> b0794a9c8401e006ee2c08d269c61cb877cae518
+
 
 Scalability Strategy:
 
