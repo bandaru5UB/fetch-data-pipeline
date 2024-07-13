@@ -16,6 +16,7 @@
 3. Start Docker Containers
 
 Data Flow
+
 1.Data Ingestion:
 
 Data is ingested into Kafka from a data generator producing messages to the user-login topic.
@@ -34,7 +35,7 @@ The processed data is produced to a new Kafka topic named processed-data-topic
 
 Additional Questions
 
-1. How would you deploy this application in production?
+1.How would you deploy this application in production?
 
 Deployment Strategy:
 
@@ -45,7 +46,7 @@ Monitoring and Logging: Integrate monitoring tools like Prometheus and Grafana t
 Secrets Management: Use a secure secrets management system like HashiCorp Vault or AWS Secrets Manager to handle sensitive data such as API keys, database credentials, and other configurations.
 Security: Implement network security measures like VPC, security groups, and network policies. Use TLS encryption for data in transit and encrypt data at rest. Regularly update and patch dependencies and containers to mitigate security vulnerabilities.
 
-2. What other components would you want to add to make this production ready?
+2.What other components would you want to add to make this production ready?
 
 Additional Components:
 
@@ -57,7 +58,7 @@ Data Backup: Implement regular backup strategies for critical data, including Ka
 Alerting System: Set up an alerting system using tools like PagerDuty or OpsGenie to notify the DevOps team of any critical issues or downtime.
 Service Mesh: Use a service mesh like Istio or Linkerd to manage microservices communication, traffic management, and observability.
 
-3. How can this application scale with a growing dataset?
+3.How can this application scale with a growing dataset?
 
 Scalability Strategy:
 
